@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="325dp"
+        android:layout_height="313dp"
+        app:srcCompat="@drawable/nett"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="328dp"
+        android:layout_height="64dp"
+        android:text="email atau nama pengguna"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="331dp"
+        android:layout_height="41dp"
+        android:text="kata sandi"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="324dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#9F1616"
+        android:text="Berikutnya"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="604dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
